@@ -1,0 +1,26 @@
+# ==============================================================================
+# WEAVER .GITIGNORE
+# ==============================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+build/
+temp/
+*.log
+isolate-*.log
+processed.txt
+
+.DS_Store
+Thumbs.db
+.obsidian/
+.vscode/
+.idea/
+*.swp
+
+.env
+.env.local
+config.local.json

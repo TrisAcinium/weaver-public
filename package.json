@@ -1,0 +1,32 @@
+{
+  "name": "tris-weaver-public",
+  "version": "1.0.0",
+  "description": "A compiler that brings reactivity, mixins, and AST pipelines to static configuration files.",
+  "main": "bin/compile.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/compiler.test.js",
+    "compile": "node bin/compile.js",
+    "clean": "node bin/clean.js",
+    "lint": "node bin/lint.js"
+  },
+  "keywords": [
+    "compiler",
+    "yaml",
+    "metadata"
+  ],
+  "author": "Tris",
+  "license": "All rights reserved",
+  "type": "commonjs",
+  "dependencies": {
+    "js-yaml": "^4.1.1",
+    "jsep": "^1.4.0",
+    "marked": "^18.0.2",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.3"
+  }
+}
